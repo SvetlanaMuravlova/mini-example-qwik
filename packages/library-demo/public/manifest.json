@@ -1,0 +1,23 @@
+{
+  "name": "library",
+  "short_name": "lib",
+  "description": "library documentation",
+  "lang": "en-GB",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1d1d2b",
+  "background_color": "#1d1d2b",
+  "external": {
+    "urls": [
+      {
+        "url": "/css/bootstrap-5.2.3/css/bootstrap.min.css"
+      },
+      {
+        "url": "/css/bootstrap-4.5.3/css/bootstrap.min.css"
+      }
+    ]
+  },
+  "routing": {
+    "index": "/index.html"
+  }
+}
